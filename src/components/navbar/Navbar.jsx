@@ -50,7 +50,10 @@ const Navbar = () => {
         )}
         {toggleMenu && (
           <div className="gpt3__navbar-menu_container scale-up-center">
-            <div className="gpt3__navbar-menu_container-links">
+            <div
+              className="gpt3__navbar-menu_container-links"
+              onClick={() => setToggleMenu(false)}
+            >
               <p>
                 <a href="#home">Home</a>
               </p>
