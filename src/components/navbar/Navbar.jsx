@@ -25,7 +25,11 @@ const Navbar = () => {
                 onClick={() => setToggleMenu(false)}
               />
             </div>
-            <div className="gpt3__navbar-menu_container-links">
+
+            <div
+              className="gpt3__navbar-menu_container-links"
+              onClick={() => setToggleMenu(false)}
+            >
               <p>
                 <a href="#home">Home</a>
               </p>
